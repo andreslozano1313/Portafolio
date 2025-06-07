@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header'
+import About from './components/About'
+import Skills from './components/Skills';
+
 
 function App() {
   return (
-     
-      <Header></Header>
+     <>
+      <Header></Header>,
+      <container>
+        <About></About>
+        <Skills></Skills>
+      </container>
+
+    </>
   );
 }
 
